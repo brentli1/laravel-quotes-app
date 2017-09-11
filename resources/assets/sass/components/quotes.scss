@@ -1,0 +1,36 @@
+.quotes {
+    margin-bottom: 20px;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 15px;
+    }
+
+    &__card-header {
+        position: relative;
+    }
+
+    &__card-title {
+        margin: 0;
+    }
+
+    &__item-close {
+        font-size: 1.3rem;
+        position: absolute;
+        right: 6px;
+        text-decoration: none;
+        top: 6px;
+    }
+
+    &__text {
+        margin-bottom: 10px;
+    }
+
+    &__info {
+        font-size: 0.75rem;
+    }
+
+    .pagination {
+        justify-content: center;
+    }
+}
