@@ -23,7 +23,7 @@ class QuoteController extends Controller {
     public function postQuote(Request $request) {
         $this->validate($request, [
             'author' => 'required|max:60|alpha',
-            'tag_lin' => 'required',
+            'tag_line' => 'required',
             'quote' => 'required|max:500'
         ]);
 
